@@ -1,0 +1,402 @@
+[
+    {
+        "grade": "Captain",
+        "name": "Edward John Smith",
+        "age": 62,
+        "role": "Captain",
+        "survived": false,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Edward_Smith_%28Titanic%29.jpg/220px-Edward_Smith_%28Titanic%29.jpg",
+        "description": "Edward John Smith was an English naval reserve officer. He served as master of numerous White Star Line vessels. He was the captain of the RMS Titanic, and perished when the ship sank on its maiden voyage.",
+        "history": "Smith was born in Hanley, Staffordshire, England, and went to sea at the age of 13. He quickly rose through the ranks and graduated from the Merchant Navy College in London. After a long career with the White Star Line, he was given command of the Titanic. Smith was on the bridge when the Titanic struck an iceberg and, as the most senior officer present, took control of the ship. He was last seen on the bridge, and his body was never recovered."
+    },
+    {
+        "grade": "First Officer",
+        "name": "William McMaster Murdoch",
+        "age": 39,
+        "role": "First Officer",
+        "survived": false,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Murdoch%2C_1912.jpg",
+        "description": "William McMaster Murdoch was a Scottish sailor who served as First Officer aboard the RMS Titanic. He perished during the sinking of the ship.",
+        "history": "Murdoch was born in Dalbeattie, Scotland, and joined the White Star Line in 1900. He served on several ships before being assigned to the Titanic. During the ship's maiden voyage, Murdoch was on duty when the iceberg was sighted. Despite efforts to avoid the collision, the ship struck the iceberg, leading to its eventual sinking. Murdoch's body was never recovered."
+    },
+    {
+        "grade": "Second Officer",
+        "name": "Charles Herbert Lightoller",
+        "age": 38,
+        "role": "Second Officer",
+        "survived": true,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/0/00/Charles_Lightoller.jpg",
+        "description": "Charles Herbert Lightoller was the Second Officer on the RMS Titanic. He was the highest-ranking officer to survive the disaster.",
+        "history": "Lightoller was born in Chorley, Lancashire, England. He began his seafaring career at age 13 and experienced several shipwrecks and disasters before joining the White Star Line. During the Titanic's sinking, Lightoller helped load lifeboats and managed to survive by clinging to an overturned collapsible lifeboat. After the disaster, he continued his maritime career and later served with distinction in World War I."
+    },
+    {
+        "grade": "Passenger",
+        "name": "Margaret Brown",
+        "age": 44,
+        "role": "Passenger",
+        "survived": true,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Margaret_Brown_1910.jpg",
+        "description": "Margaret Brown, more commonly known as 'The Unsinkable Molly Brown', was an American socialite and philanthropist who survived the sinking of the RMS Titanic.",
+        "history": "Born in Hannibal, Missouri, Margaret Brown married a mining engineer and struck it rich with the discovery of gold. She became known for her charitable work and social activism. During the Titanic's sinking, she helped other passengers into lifeboats and later urged her lifeboat to return to look for survivors. Brown's heroism was widely recognized, and she continued her philanthropic efforts until her death."
+    },
+    {
+        "grade": "Passenger",
+        "name": "John Jacob Astor IV",
+        "age": 47,
+        "role": "Passenger",
+        "survived": false,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/9/9d/John_Jacob_Astor_IVb.jpg",
+        "description": "John Jacob Astor IV was an American business magnate, real estate developer, investor, inventor, writer, lieutenant colonel in the Spanish–American War, and prominent member of the Astor family.",
+        "history": "Astor was born in Rhinebeck, New York, and was one of the richest men in the world at the time of the Titanic's voyage. He was traveling with his young pregnant wife, Madeleine. Astor did not survive the sinking, but his wife was rescued in a lifeboat."
+    },
+    {
+        "grade": "Passenger",
+        "name": "Isidor Straus",
+        "age": 67,
+        "role": "Passenger",
+        "survived": false,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/1/12/Isidor_Straus_01.jpg",
+        "description": "Isidor Straus was a German-born American businessman, politician, and co-owner of Macy's department store.",
+        "history": "Straus was born in Otterberg, Germany, and immigrated to the United States with his family. He and his wife, Ida, were traveling back to New York on the Titanic. Despite being offered a place in a lifeboat, Isidor chose to stay behind with his wife, who refused to leave him. Both perished in the disaster."
+    },
+    {
+        "grade": "Passenger",
+        "name": "Ida Straus",
+        "age": 63,
+        "role": "Passenger",
+        "survived": false,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Ida_Straus.jpg",
+        "description": "Ida Straus was the wife of Isidor Straus, co-owner of Macy's department store.",
+        "history": "Born in Worms, Germany, Ida married Isidor Straus in 1871. The couple was known for their devotion to each other. During the Titanic's sinking, Ida refused to leave her husband and both chose to remain on board, ultimately perishing together."
+    },
+    {
+        "grade": "Passenger",
+        "name": "Benjamin Guggenheim",
+        "age": 46,
+        "role": "Passenger",
+        "survived": false,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Benjamin_Guggenheim_1.jpg",
+        "description": "Benjamin Guggenheim was an American businessman and wealthy industrialist.",
+        "history": "Guggenheim was born in Philadelphia, Pennsylvania, and was part of the prominent Guggenheim family. He was traveling on the Titanic with his valet and mistress. Known for his chivalry during the disaster, he famously dressed in his best clothes and accepted his fate with dignity, stating he was 'prepared to go down like a gentleman.'"
+    },
+    {
+        "grade": "Passenger",
+        "name": "Joseph Bruce Ismay",
+        "age": 49,
+        "role": "Passenger",
+        "survived": true,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/5/59/Bruce_Ismay.jpg",
+        "description": "Joseph Bruce Ismay was an English businessman who served as managing director of the White Star Line.",
+        "history": "Ismay was born in Crosby, England, and was instrumental in the design and construction of the Titanic. He controversially survived the disaster by boarding a lifeboat, which led to much public and media criticism. After the sinking, Ismay retired from active business and led a quiet life until his death."
+    },
+    {
+        "grade": "Passenger",
+        "name": "Thomas Andrews",
+        "age": 39,
+        "role": "Chief Designer",
+        "survived": false,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/9/94/Thomas_Andrews_cph.3b19799.jpg",
+        "description": "Thomas Andrews was an Irish businessman and shipbuilder, best known as the chief designer of the RMS Titanic.",
+        "history": "Andrews was born in Comber, County Down, Ireland, and was a member of the Harland and Wolff shipbuilding company. He was aboard the Titanic to observe her maiden voyage and provide support. During the sinking, Andrews was seen helping passengers and urging them to get into lifeboats. He did not survive the disaster."
+    },
+    {
+        "grade": "Passenger",
+        "name": "Dorothy Gibson",
+        "age": 22,
+        "role": "Passenger",
+        "survived": true,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Dorothy_Gibson_2.jpg",
+        "description": "Dorothy Gibson was an American silent film actress and singer.",
+        "history": "Born in Hoboken, New Jersey, Gibson was traveling on the Titanic with her mother. She survived the disaster and later starred in a film about the sinking, 'Saved from the Titanic,' which was released just a month after the event. The film is considered the first movie made about the Titanic."
+    },
+    {
+        "grade": "Passenger",
+        "name": "Eva Miriam Hart",
+        "age": 7,
+        "role": "Passenger",
+        "survived": true,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Eva_Hart.jpg",
+        "description": "Eva Miriam Hart was a British survivor of the Titanic disaster.",
+        "history": "Hart was born in Ilford, Essex, England, and was traveling with her parents on the Titanic. Her father did not survive, but she and her mother were rescued. Eva later became a prominent public speaker and author, sharing her experiences of the Titanic's sinking throughout her life."
+    },
+    {
+        "grade": "Passenger",
+        "name": "Edward Smith",
+        "age": 18,
+        "role": "Steward",
+        "survived": true,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Edward_J_Smith.jpg",
+        "description": "Edward Smith was a steward on the RMS Titanic.",
+        "history": "Smith was born in Southampton, England, and joined the crew of the Titanic for its maiden voyage. He was one of the many crew members who helped passengers during the evacuation and survived the sinking. After the disaster, Smith continued his career at sea."
+    },
+    {
+        "grade": "Passenger",
+        "name": "Lawrence Beesley",
+        "age": 34,
+        "role": "Passenger",
+        "survived": true,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/3/37/Lawrence_Beesley.jpg",
+        "description": "Lawrence Beesley was a British science teacher and Titanic survivor.",
+        "history": "Beesley was born in Wirksworth, Derbyshire, England, and was traveling on the Titanic to visit his brother in Canada. He survived the disaster and later wrote a book about his experiences, 'The Loss of the SS Titanic,' which remains a valuable historical account."
+    },
+    {
+        "grade": "Passenger",
+        "name": "Madeleine Astor",
+        "age": 19,
+        "role": "Passenger",
+        "survived": true,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Madeleine_Astor_1910.jpg",
+        "description": "Madeleine Astor was the wife of John Jacob Astor IV and a Titanic survivor.",
+        "history": "Madeleine was born in Brooklyn, New York, and married John Jacob Astor IV in 1911. She was pregnant at the time of the Titanic's voyage. After surviving the disaster, Madeleine gave birth to a son and later remarried twice. She lived a relatively quiet life until her death in 1940."
+    },
+    {
+        "grade": "Passenger",
+        "name": "Archibald Gracie IV",
+        "age": 54,
+        "role": "Passenger",
+        "survived": true,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Archibald_Gracie_1907.jpg",
+        "description": "Archibald Gracie IV was an American writer, historian, and Titanic survivor.",
+        "history": "Gracie was born in Mobile, Alabama, and was traveling on the Titanic to return to the United States. He survived by clinging to an overturned lifeboat. After the disaster, Gracie wrote a detailed account of the sinking, 'The Truth about the Titanic,' which was published posthumously in 1913."
+    },
+    {
+        "grade": "Passenger",
+        "name": "Frederick Fleet",
+        "age": 24,
+        "role": "Lookout",
+        "survived": true,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/0/07/Frederick_Fleet.jpg",
+        "description": "Frederick Fleet was a British sailor and Titanic lookout.",
+        "history": "Fleet was born in Liverpool, England, and joined the Titanic's crew as a lookout. He was one of the first to spot the iceberg that the ship collided with. Fleet survived the sinking and continued to work at sea for many years. He later struggled with depression and sadly took his own life in 1965."
+    },
+    {
+        "grade": "Passenger",
+        "name": "Harold Bride",
+        "age": 22,
+        "role": "Radio Operator",
+        "survived": true,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/Harold_Bride.jpg",
+        "description": "Harold Bride was a British junior wireless officer on the RMS Titanic.",
+        "history": "Bride was born in Nunhead, London, and worked as a radio operator alongside Jack Phillips. He helped send distress signals during the sinking and was rescued after surviving on an overturned lifeboat. Bride continued his career in radio communication after the disaster."
+    },
+    {
+        "grade": "Passenger",
+        "name": "Jack Phillips",
+        "age": 25,
+        "role": "Senior Radio Operator",
+        "survived": false,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/a/a0/John_George_Phillips.jpg",
+        "description": "Jack Phillips was the senior wireless operator on the RMS Titanic.",
+        "history": "Phillips was born in Farncombe, Surrey, England, and worked tirelessly to send distress signals as the Titanic sank. Despite his efforts, he did not survive the disaster. His bravery and dedication have been widely recognized."
+    },
+    {
+        "grade": "Passenger",
+        "name": "Violet Jessop",
+        "age": 24,
+        "role": "Stewardess",
+        "survived": true,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Violet_Jessop.jpg",
+        "description": "Violet Jessop was a stewardess who survived the sinking of the RMS Titanic.",
+        "history": "Jessop was born in Bahia Blanca, Argentina, to Irish parents. She worked as a stewardess on the Titanic and later survived the sinking of both the RMS Titanic and HMHS Britannic. Her incredible survival stories earned her the nickname 'Miss Unsinkable.'"
+    },
+    {
+        "grade": "Passenger",
+        "name": "Lillian Asplund",
+        "age": 5,
+        "role": "Passenger",
+        "survived": true,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/8/89/Lillian_Asplund.jpg",
+        "description": "Lillian Asplund was a Swedish-American survivor of the Titanic disaster.",
+        "history": "Asplund was born in Worcester, Massachusetts, and was traveling with her family on the Titanic. Her father and three brothers perished, but Lillian, her mother, and a brother survived. Lillian lived a private life and was the last American survivor with memories of the disaster."
+    },
+    {
+        "grade": "Passenger",
+        "name": "Eleanor Elkins Widener",
+        "age": 50,
+        "role": "Passenger",
+        "survived": true,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/5/56/Eleanor_Widener.jpg",
+        "description": "Eleanor Elkins Widener was a Philadelphia socialite and Titanic survivor.",
+        "history": "Widener was born in Philadelphia, Pennsylvania, and was returning from a European trip with her family. Her husband and son perished in the disaster, but Eleanor survived and later donated a library to Harvard University in their memory."
+    },
+    {
+        "grade": "Passenger",
+        "name": "Robert Hichens",
+        "age": 29,
+        "role": "Quartermaster",
+        "survived": true,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/9/94/Robert_Hichens.jpg",
+        "description": "Robert Hichens was a British sailor and Titanic quartermaster.",
+        "history": "Hichens was born in Newlyn, Cornwall, England, and was at the helm when the Titanic struck the iceberg. He was responsible for lifeboat 6 and became infamous for his treatment of passengers during the evacuation. After the disaster, he continued his maritime career but struggled with personal issues and was imprisoned for attempted murder in later life."
+    },
+    {
+        "grade": "Passenger",
+        "name": "Edith Corse Evans",
+        "age": 36,
+        "role": "Passenger",
+        "survived": false,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/4/47/Edith_Evans.jpg",
+        "description": "Edith Corse Evans was an American socialite and Titanic passenger.",
+        "history": "Evans was born in Philadelphia, Pennsylvania, and was traveling on the Titanic with friends. She is remembered for giving up her spot in a lifeboat to another woman, a decision that led to her perishing in the disaster. Her sacrifice was later commemorated by her family."
+    },
+    {
+        "grade": "Passenger",
+        "name": "Charlotte Collyer",
+        "age": 31,
+        "role": "Passenger",
+        "survived": true,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Charlotte_Collyer.jpg",
+        "description": "Charlotte Collyer was a British Titanic survivor.",
+        "history": "Collyer was born in England and was traveling to America with her husband and daughter. Her husband did not survive, but Charlotte and her daughter were rescued. She wrote about her experiences for several publications, providing valuable firsthand accounts of the disaster."
+    },
+    {
+        "grade": "Passenger",
+        "name": "Joseph Laroche",
+        "age": 25,
+        "role": "Passenger",
+        "survived": false,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/3/35/Joseph_Laroche.jpg",
+        "description": "Joseph Laroche was a Haitian engineer and Titanic passenger.",
+        "history": "Laroche was born in Cap-Haitien, Haiti, and was traveling with his pregnant wife and two daughters. He was the only black passenger in first class. His family survived, but Joseph perished in the disaster. His story was largely forgotten until the late 20th century."
+    },
+    {
+        "grade": "Passenger",
+        "name": "Anna Sophia Turja",
+        "age": 18,
+        "role": "Passenger",
+        "survived": true,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Anna_Sophia_Turja.jpg",
+        "description": "Anna Sophia Turja was a Finnish-American survivor of the Titanic disaster.",
+        "history": "Turja was born in Oulainen, Finland, and was immigrating to the United States to join her sister. She survived the sinking and later settled in Minnesota. Anna lived a long life and shared her experiences in several interviews before her death in 1982."
+    },
+    {
+        "grade": "Passenger",
+        "name": "Marian Thayer",
+        "age": 39,
+        "role": "Passenger",
+        "survived": true,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/Marian_Thayer.jpg",
+        "description": "Marian Thayer was an American socialite and Titanic survivor.",
+        "history": "Thayer was born in Philadelphia, Pennsylvania, and was traveling with her husband and son. Her husband perished, but Marian and her son survived. She later dedicated herself to charitable work and lived in Haverford, Pennsylvania, until her death."
+    },
+    {
+        "grade": "Passenger",
+        "name": "Noel Leslie",
+        "age": 39,
+        "role": "Countess of Rothes",
+        "survived": true,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Noel_Leslie.jpg",
+        "description": "Noel Leslie, Countess of Rothes, was a British aristocrat and Titanic survivor.",
+        "history": "Leslie was born in London, England, and was traveling with her cousin on the Titanic. She played a key role in helping other passengers and managing lifeboat 8. After the disaster, Leslie was praised for her bravery and compassion."
+    },
+    {
+        "grade": "Passenger",
+        "name": "Annie Moore",
+        "age": 15,
+        "role": "Passenger",
+        "survived": true,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Annie_Moore.jpg",
+        "description": "Annie Moore was a third-class passenger on the RMS Titanic.",
+        "history": "Moore was born in Ireland and was traveling with her family to the United States. She survived the disaster and settled in New York. Annie later married and had a large family. She lived a quiet life and passed away in 1960."
+    },
+    {
+        "grade": "Passenger",
+        "name": "Edith Eileen Brown",
+        "age": 15,
+        "role": "Passenger",
+        "survived": true,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/68/Edith_Brown.jpg",
+        "description": "Edith Eileen Brown was a British Titanic survivor.",
+        "history": "Brown was born in Cape Town, South Africa, and was traveling with her parents. Her father perished, but Edith and her mother survived. She later married and shared her experiences of the Titanic with various media outlets before her death in 1997."
+    },
+    {
+        "grade": "Passenger",
+        "name": "William Carter",
+        "age": 36,
+        "role": "Passenger",
+        "survived": true,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/9/94/William_Carter.jpg",
+        "description": "William Carter was an American businessman and Titanic survivor.",
+        "history": "Carter was born in Philadelphia, Pennsylvania, and was traveling with his family. He survived the disaster and later returned to his business ventures. William became known for his extensive collection of antique cars and continued to travel widely until his death."
+    },
+    {
+        "grade": "Passenger",
+        "name": "Helen Churchill Candee",
+        "age": 53,
+        "role": "Passenger",
+        "survived": true,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/0/00/Helen_Churchill_Candee.jpg",
+        "description": "Helen Churchill Candee was an American author, journalist, interior decorator, and Titanic survivor.",
+        "history": "Candee was born in New York City and was traveling back to the United States after completing a book. She survived the disaster and continued her writing career. Helen later published several works and became an advocate for women's rights."
+    },
+    {
+        "grade": "Passenger",
+        "name": "William Mintram",
+        "age": 46,
+        "role": "Passenger",
+        "survived": false,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/1/1d/William_Mintram.jpg",
+        "description": "William Mintram was a British Titanic passenger.",
+        "history": "Mintram was born in England and was traveling to America for work. He did not survive the sinking, and his body was never recovered. William's family in England mourned his loss and remembered him as a devoted husband and father."
+    },
+    {
+        "grade": "Passenger",
+        "name": "Hudson Allison",
+        "age": 30,
+        "role": "Passenger",
+        "survived": false,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Hudson_Allison.jpg",
+        "description": "Hudson Allison was a Canadian businessman and Titanic passenger.",
+        "history": "Allison was born in Montreal, Quebec, and was traveling with his family. He did not survive the disaster, but his wife and daughter were rescued. Hudson's loss was deeply felt by his family and business associates."
+    },
+    {
+        "grade": "Passenger",
+        "name": "Alice Cleaver",
+        "age": 22,
+        "role": "Nanny",
+        "survived": true,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/66/Alice_Cleaver.jpg",
+        "description": "Alice Cleaver was a nanny and Titanic survivor.",
+        "history": "Cleaver was born in London, England, and was traveling as a nanny for the Allison family. She managed to save the youngest Allison child, Trevor, by taking him into a lifeboat. Alice's actions were later recognized as heroic, and she continued her work as a nanny after the disaster."
+    },
+    {
+        "grade": "Passenger",
+        "name": "Thomas Millar",
+        "age": 33,
+        "role": "Passenger",
+        "survived": false,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/8/89/Thomas_Millar.jpg",
+        "description": "Thomas Millar was an Irish Titanic passenger.",
+        "history": "Millar was born in Belfast, Ireland, and was traveling to America to start a new life. He did not survive the sinking, and his body was never recovered. Thomas's family in Ireland remembered him as a hardworking and hopeful man."
+    },
+    {
+        "grade": "Passenger",
+        "name": "Michel Navratil",
+        "age": 31,
+        "role": "Passenger",
+        "survived": false,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Michel_Navratil.jpg",
+        "description": "Michel Navratil was a French Titanic passenger.",
+        "history": "Navratil was born in Slovakia and was traveling with his two sons under the alias 'Louis M. Hoffman.' He did not survive the disaster, but his sons were rescued and later reunited with their mother in France. Michel's story was later uncovered through the efforts of his surviving family."
+    },
+    {
+        "grade": "Passenger",
+        "name": "Edith Rosenbaum",
+        "age": 32,
+        "role": "Passenger",
+        "survived": true,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Edith_Rosenbaum.jpg",
+        "description": "Edith Rosenbaum was an American fashion buyer and Titanic survivor.",
+        "history": "Rosenbaum was born in Cincinnati, Ohio, and was returning to the United States after a business trip. She survived the disaster and later became known for her work in the fashion industry. Edith's experiences on the Titanic were later recounted in various interviews and documentaries."
+    },
+    {
+        "grade": "Passenger",
+        "name": "Henry Harper",
+        "age": 48,
+        "role": "Passenger",
+        "survived": true,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/4/44/Henry_Harper.jpg",
+        "description": "Henry Harper was an American publisher and Titanic survivor.",
+        "history": "Harper was born in New York City and was traveling with his wife and a dog. He survived the disaster and later recounted his experiences in several publications. Henry continued his work in the publishing industry and remained a prominent figure in New York society."
+    }
+]
