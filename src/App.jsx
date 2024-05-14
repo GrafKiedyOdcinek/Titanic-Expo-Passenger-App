@@ -39,7 +39,7 @@ function App() {
 
   return (
     <div className="p-4" {...handlers}>
-      <header className="flex justify-between items-center">
+      <header className="flex flex-col sm:flex-row justify-between items-center gap-4">
         <div className="grade flex gap-4">
           <div className="grade1 border rounded-full min-w-[70px] p-2 text-center">
             1st
