@@ -10,13 +10,20 @@ function App() {
   const [searchTerm, setSearchTerm] = useState("");
   const [currentItems, setCurrentItems] = useState([]);
   const [filteredData, setFilteredData] = useState(data);
+  const [classFilter, setClassFilter] = useState("All");
 
   useEffect(() => {
-    const filtered = data.filter((passenger) =>
-      passenger.name.toLowerCase().includes(searchTerm.toLowerCase())
-    );
+    const filtered = data.filter((passenger) => {
+      const matchesSearch = passenger.name
+        .toLowerCase()
+        .includes(searchTerm.toLowerCase());
+      const matchesClass =
+        classFilter === "All" ||
+        passenger.class.toLowerCase() === classFilter.toLowerCase();
+      return matchesSearch && matchesClass;
+    });
     setFilteredData(filtered);
-  }, [searchTerm]);
+  }, [searchTerm, classFilter]);
 
   useEffect(() => {
     const indexOfLastPost = currentPage * postsPerPage;
@@ -37,22 +44,55 @@ function App() {
     trackMouse: true,
   });
 
+  const handleClassFilter = (filter) => {
+    setClassFilter(filter);
+    setCurrentPage(1);
+  };
+
   return (
     <div className="p-4" {...handlers}>
       <header className="flex flex-col sm:flex-row justify-between items-center gap-4">
         <div className="grade flex gap-4">
-          <div className="grade1 border rounded-full min-w-[70px] p-2 text-center">
+          <button
+            onClick={() => handleClassFilter("First Class")}
+            className={`grade1 border rounded-full min-w-[70px] p-2 text-center ${
+              classFilter === "First Class" ? "active-filter" : ""
+            }`}
+          >
             1st
-          </div>
-          <div className="grade2 border rounded-full min-w-[70px] p-2 text-center">
+          </button>
+          <button
+            onClick={() => handleClassFilter("Second Class")}
+            className={`grade2 border rounded-full min-w-[70px] p-2 text-center ${
+              classFilter === "Second Class" ? "active-filter" : ""
+            }`}
+          >
             2nd
-          </div>
-          <div className="grade3 border rounded-full min-w-[70px] p-2 text-center">
+          </button>
+          <button
+            onClick={() => handleClassFilter("Third Class")}
+            className={`grade3 border rounded-full min-w-[70px] p-2 text-center ${
+              classFilter === "Third Class" ? "active-filter" : ""
+            }`}
+          >
             3rd
-          </div>
-          <div className="grade3 border rounded-full min-w-[70px] p-2 text-center">
+          </button>
+          <button
+            onClick={() => handleClassFilter("Staff")}
+            className={`grade4 border rounded-full min-w-[70px] p-2 text-center ${
+              classFilter === "Staff" ? "active-filter" : ""
+            }`}
+          >
             STAFF
-          </div>
+          </button>
+          {classFilter !== "All" && (
+            <button
+              onClick={() => handleClassFilter("All")}
+              className="clear-filter border rounded-full min-w-[70px] p-2 text-center bg-red-300"
+            >
+              <i className="fa-solid fa-filter-circle-xmark"></i> Reset Filter
+            </button>
+          )}
         </div>
         <div className="search">
           <div className="w-72">
@@ -84,13 +124,13 @@ function App() {
           {currentItems.length > 0 ? (
             currentItems.map((passenger) => (
               <div
-                key={passenger.name}
+                key={passenger?.name}
                 className="passenger-item flex flex-col gap-3 items-center w-full sm:w-[100%] md:w-[28%] lg:w-[15%]"
               >
                 <div className="passenger-img">
-                  <img src={passenger.image} alt={passenger.name} />
+                  <img src={passenger?.image} alt={passenger?.name} />
                 </div>
-                <p>{passenger.name}</p>
+                <p>{passenger?.name}</p>
               </div>
             ))
           ) : (
