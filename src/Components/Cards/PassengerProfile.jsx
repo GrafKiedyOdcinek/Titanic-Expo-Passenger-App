@@ -7,6 +7,12 @@ const PassengerProfile = () => {
 
   return (
     <div className="p-4">
+      <button
+        onClick={() => window.history.back()}
+        className="border rounded-full w-32 p-2 text-center hover:bg-gray-200 hover:text-gray-800 transition-all"
+      >
+        <i className="fa-solid fa-arrow-left"></i>
+      </button>
       {passenger ? (
         <div className="passenger-profile">
           <img src={passenger.image} alt={passenger.name} />
@@ -30,7 +36,9 @@ const PassengerProfile = () => {
       ) : (
         <>
           <p>Passenger not found</p>
-          <button onClick={() => window.history.back()}>Go back</button>
+          <button onClick={() => window.history.back()}>
+            <i className="fa-regular fa-circle-left"></i> Go back
+          </button>
         </>
       )}
     </div>
