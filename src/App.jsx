@@ -3,6 +3,7 @@ import data from "./Data/passenger.json";
 import { useState, useEffect } from "react";
 import Pagination from "./Components/pagination/Pagination";
 import { useSwipeable } from "react-swipeable";
+import { Link } from "react-router-dom";
 
 function App() {
   const [currentPage, setCurrentPage] = useState(1);
@@ -125,12 +126,18 @@ function App() {
             currentItems.map((passenger) => (
               <div
                 key={passenger?.name}
-                className="passenger-item flex flex-col gap-3 items-center w-full sm:w-[100%] md:w-[28%] lg:w-[15%]"
+                className="passenger-item flex flex-col gap-3 items-center w-full sm:w-[100%] md:w-[28%] lg:w-[15%] justify-center"
               >
-                <div className="passenger-img">
-                  <img src={passenger?.image} alt={passenger?.name} />
-                </div>
-                <p>{passenger?.name}</p>
+                <Link
+                  to={`/passenger/${passenger?.name}`}
+                  key={passenger?.name}
+                  className="flex flex-col items-center gap-2 w-full"
+                >
+                  <div className="passenger-img">
+                    <img src={passenger?.image} alt={passenger?.name} />
+                  </div>
+                  <p>{passenger?.name}</p>
+                </Link>
               </div>
             ))
           ) : (
