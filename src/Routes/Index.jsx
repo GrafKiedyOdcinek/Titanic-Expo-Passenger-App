@@ -8,7 +8,7 @@ const index = () => {
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="*" element={<Navigate to="/" />} />
-        <Route path="/passenger/:name" element={<PassengerProfile />} />
+        <Route path="/passenger/:id" element={<PassengerProfile />} />
       </Routes>
     </BrowserRouter>
   );

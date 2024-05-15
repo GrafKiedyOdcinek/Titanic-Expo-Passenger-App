@@ -4,6 +4,17 @@ import { useState, useEffect } from "react";
 import Pagination from "./Components/pagination/Pagination";
 import { useSwipeable } from "react-swipeable";
 import { Link } from "react-router-dom";
+import {
+  Popover,
+  PopoverHandler,
+  PopoverContent,
+  Avatar,
+  Button,
+  Typography,
+  List,
+  ListItem,
+  ListItemPrefix,
+} from "@material-tailwind/react";
 
 function App() {
   const [currentPage, setCurrentPage] = useState(1);
@@ -113,10 +124,38 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="language">
-          <div className="fr border rounded-full bg-white w-[30px] h-[30px] flex items-center justify-center">
-            <p className="text-black">FR</p>
-          </div>
+        <div className="language flex gap-6">
+          <Popover placement="bottom-end">
+            <PopoverHandler>
+              <button>
+                <div className="fr border rounded-full bg-white w-[30px] h-[30px] flex items-center justify-center">
+                  <p className="text-black">FR</p>
+                </div>
+              </button>
+            </PopoverHandler>
+            <PopoverContent className="w-72 pb-0">
+              <div className="mb-4 flex items-center gap-4 border-b border-blue-gray-50 pb-4">
+                <div className="fr border rounded-full bg-[#0d1625] w-[30px] h-[30px] flex items-center justify-center">
+                  <p className="text-white">FR</p>
+                </div>
+                <div>
+                  <Typography variant="h6" color="blue-gray">
+                    Français
+                  </Typography>
+                </div>
+              </div>
+              <div className="flex items-center gap-4 border-b border-blue-gray-50 pb-4">
+                <div className="fr border rounded-full bg-[#0d1625] w-[30px] h-[30px] flex items-center justify-center">
+                  <p className="text-white">EN</p>
+                </div>
+                <div>
+                  <Typography variant="h6" color="blue-gray">
+                    English
+                  </Typography>
+                </div>
+              </div>
+            </PopoverContent>
+          </Popover>
         </div>
       </header>
       <div className="separator border mt-6"></div>
@@ -129,7 +168,7 @@ function App() {
                 className="passenger-item flex flex-col gap-3 items-center w-full sm:w-[100%] md:w-[28%] lg:w-[15%] justify-center"
               >
                 <Link
-                  to={`/passenger/${passenger?.name}`}
+                  to={`/passenger/${passenger?.passengerID}`}
                   key={passenger?.name}
                   className="flex flex-col items-center gap-2 w-full"
                 >
