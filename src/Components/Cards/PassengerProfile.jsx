@@ -77,10 +77,10 @@ const PassengerProfile = () => {
                   <i className="fa-solid fa-caret-right text-7xl"></i>
                 </button>
               </div>
-              <h1 className="border rounded-full py-3 px-10 w-[50%] text-center">
+              <h1 className="border rounded-full py-3 px-10 w-full md:w-w-[50%] lg:w-[50%] text-center">
                 {passenger.name}
               </h1>
-              <div className="flex gap-10 w-full mt-4">
+              <div className="flex gap-2 md:gap-10 lg:gap-10 w-full mt-4">
                 <p className="border rounded-full py-3 px-10 w-[40%] text-center">
                   <strong>Age:</strong> {passenger.age}
                 </p>
