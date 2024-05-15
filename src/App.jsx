@@ -1,5 +1,4 @@
 import "./style/index.css";
-import data from "./Data/passenger.json";
 import { useState, useEffect } from "react";
 import Pagination from "./Components/pagination/Pagination";
 import { useSwipeable } from "react-swipeable";
@@ -8,21 +7,34 @@ import {
   Popover,
   PopoverHandler,
   PopoverContent,
-  Avatar,
-  Button,
   Typography,
-  List,
-  ListItem,
-  ListItemPrefix,
 } from "@material-tailwind/react";
+
+import passengerDataEN from "./Data/passengerEN.json";
+import passengerDataFR from "./Data/passengerFR.json";
 
 function App() {
   const [currentPage, setCurrentPage] = useState(1);
   const [postsPerPage, setPostsPerPage] = useState(20);
   const [searchTerm, setSearchTerm] = useState("");
   const [currentItems, setCurrentItems] = useState([]);
-  const [filteredData, setFilteredData] = useState(data);
+  const [filteredData, setFilteredData] = useState([]);
   const [classFilter, setClassFilter] = useState("All");
+  const [data, setData] = useState([]);
+  const [language, setLanguage] = useState(
+    localStorage.getItem("language") || "EN"
+  );
+
+  useEffect(() => {
+    const loadData = () => {
+      if (language === "FR") {
+        setData(passengerDataFR);
+      } else {
+        setData(passengerDataEN);
+      }
+    };
+    loadData();
+  }, [language]);
 
   useEffect(() => {
     const filtered = data.filter((passenger) => {
@@ -35,7 +47,7 @@ function App() {
       return matchesSearch && matchesClass;
     });
     setFilteredData(filtered);
-  }, [searchTerm, classFilter]);
+  }, [searchTerm, classFilter, data]);
 
   useEffect(() => {
     const indexOfLastPost = currentPage * postsPerPage;
@@ -59,6 +71,11 @@ function App() {
   const handleClassFilter = (filter) => {
     setClassFilter(filter);
     setCurrentPage(1);
+  };
+
+  const changeLanguage = (lang) => {
+    setLanguage(lang);
+    localStorage.setItem("language", lang);
   };
 
   return (
@@ -129,12 +146,15 @@ function App() {
             <PopoverHandler>
               <button>
                 <div className="fr border rounded-full bg-white w-[30px] h-[30px] flex items-center justify-center">
-                  <p className="text-black">FR</p>
+                  <p className="text-black">{language}</p>
                 </div>
               </button>
             </PopoverHandler>
             <PopoverContent className="w-72 pb-0">
-              <div className="mb-4 flex items-center gap-4 border-b border-blue-gray-50 pb-4">
+              <div
+                onClick={() => changeLanguage("FR")}
+                className="mb-4 flex items-center gap-4 border-b border-blue-gray-50 pb-4 cursor-pointer"
+              >
                 <div className="fr border rounded-full bg-[#0d1625] w-[30px] h-[30px] flex items-center justify-center">
                   <p className="text-white">FR</p>
                 </div>
@@ -144,7 +164,10 @@ function App() {
                   </Typography>
                 </div>
               </div>
-              <div className="flex items-center gap-4 border-b border-blue-gray-50 pb-4">
+              <div
+                onClick={() => changeLanguage("EN")}
+                className="flex items-center gap-4 border-b border-blue-gray-50 pb-4 cursor-pointer"
+              >
                 <div className="fr border rounded-full bg-[#0d1625] w-[30px] h-[30px] flex items-center justify-center">
                   <p className="text-white">EN</p>
                 </div>

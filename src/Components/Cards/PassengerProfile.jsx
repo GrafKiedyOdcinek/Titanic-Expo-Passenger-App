@@ -1,16 +1,42 @@
 import { useParams, useNavigate, Link } from "react-router-dom";
-import data from "../../Data/passenger.json";
+import { useState, useEffect } from "react";
 import { useSwipeable } from "react-swipeable";
+import {
+  Popover,
+  PopoverHandler,
+  PopoverContent,
+  Typography,
+} from "@material-tailwind/react";
+import passengerDataEN from "../../Data/passengerEN.json";
+import passengerDataFR from "../../Data/passengerFR.json";
 
 const PassengerProfile = () => {
   const { id } = useParams();
   const navigate = useNavigate();
   const passengerID = parseInt(id);
-  const passenger = data.find(
-    (passenger) => passenger.passengerID === passengerID
+  const [data, setData] = useState([]);
+  const [passenger, setPassenger] = useState(null);
+  const [language, setLanguage] = useState(
+    localStorage.getItem("language") || "EN"
   );
 
-  console.log(id);
+  useEffect(() => {
+    const loadData = () => {
+      if (language === "FR") {
+        setData(passengerDataFR);
+      } else {
+        setData(passengerDataEN);
+      }
+    };
+    loadData();
+  }, [language]);
+
+  useEffect(() => {
+    const passenger = data.find(
+      (passenger) => passenger.passengerID === passengerID
+    );
+    setPassenger(passenger);
+  }, [data, passengerID]);
 
   const getNextPassenger = () => {
     const nextID = passengerID < data.length ? passengerID + 1 : 1;
@@ -33,6 +59,11 @@ const PassengerProfile = () => {
     trackMouse: true,
   });
 
+  const changeLanguage = (lang) => {
+    setLanguage(lang);
+    localStorage.setItem("language", lang);
+  };
+
   return (
     <div className="p-4">
       <header className="flex justify-between items-center gap-4">
@@ -41,10 +72,44 @@ const PassengerProfile = () => {
             <i className="fa-solid fa-arrow-left text-black"></i>
           </button>
         </Link>
-        <div className="language">
-          <div className="fr border rounded-full bg-white w-[30px] h-[30px] flex items-center justify-center">
-            <p className="text-black">FR</p>
-          </div>
+        <div className="language flex gap-6">
+          <Popover placement="bottom-end">
+            <PopoverHandler>
+              <button>
+                <div className="fr border rounded-full bg-white w-[30px] h-[30px] flex items-center justify-center">
+                  <p className="text-black">{language}</p>
+                </div>
+              </button>
+            </PopoverHandler>
+            <PopoverContent className="w-72 pb-0">
+              <div
+                onClick={() => changeLanguage("FR")}
+                className="mb-4 flex items-center gap-4 border-b border-blue-gray-50 pb-4 cursor-pointer"
+              >
+                <div className="fr border rounded-full bg-[#0d1625] w-[30px] h-[30px] flex items-center justify-center">
+                  <p className="text-white">FR</p>
+                </div>
+                <div>
+                  <Typography variant="h6" color="blue-gray">
+                    Français
+                  </Typography>
+                </div>
+              </div>
+              <div
+                onClick={() => changeLanguage("EN")}
+                className="flex items-center gap-4 border-b border-blue-gray-50 pb-4 cursor-pointer"
+              >
+                <div className="fr border rounded-full bg-[#0d1625] w-[30px] h-[30px] flex items-center justify-center">
+                  <p className="text-white">EN</p>
+                </div>
+                <div>
+                  <Typography variant="h6" color="blue-gray">
+                    English
+                  </Typography>
+                </div>
+              </div>
+            </PopoverContent>
+          </Popover>
         </div>
       </header>
       <div className="separator border mt-6"></div>
@@ -89,9 +154,6 @@ const PassengerProfile = () => {
                 </p>
               </div>
 
-              {/* <p className="border rounded-full py-3 px-10">
-                <strong>Survived:</strong> {passenger.survived ? "Yes" : "No"}
-              </p> */}
               <p className="border rounded-3xl py-3 px-10">
                 <strong>Description:</strong> {passenger.description}
               </p>
