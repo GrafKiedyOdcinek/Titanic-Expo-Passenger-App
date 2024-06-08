@@ -64,3 +64,20 @@ h1 {
   background: #fff;
   color: #0d1625;
 }
+
+.slide-enter {
+  opacity: 0;
+}
+
+.slide-enter-active {
+  opacity: 1;
+  transition: opacity 600ms ease-in-out, transform 600ms ease-in-out;
+}
+
+.slide-exit {
+  opacity: 1;
+}
+
+.slide-exit-active {
+  opacity: 0;
+}

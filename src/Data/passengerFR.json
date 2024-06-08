@@ -42,7 +42,7 @@
         "age": 44,
         "role": "Passager",
         "survived": true,
-        "image": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Margaret_Brown_1910.jpg",
+        "image": "",
         "description": "Margaret Brown, plus connue sous le nom de 'The Unsinkable Molly Brown', était une mondaine et philanthrope américaine qui a survécu au naufrage du RMS Titanic.",
         "history": "Née à Hannibal, Missouri, Margaret Brown a épousé un ingénieur minier et a fait fortune avec la découverte de l'or. Elle est devenue connue pour son travail caritatif et son activisme social. Pendant le naufrage du Titanic, elle a aidé d'autres passagers à monter dans les canots de sauvetage et a ensuite exhorté son canot de sauvetage à retourner chercher des survivants. L'héroïsme de Brown a été largement reconnu et elle a poursuivi ses efforts philanthropiques jusqu'à sa mort.",
         "class": "Première Classe"
@@ -54,7 +54,7 @@
         "age": 47,
         "role": "Passager",
         "survived": false,
-        "image": "https://upload.wikimedia.org/wikipedia/commons/9/9d/John_Jacob_Astor_IVb.jpg",
+        "image": "",
         "description": "John Jacob Astor IV était un magnat des affaires américain, promoteur immobilier, investisseur, inventeur, écrivain, lieutenant-colonel pendant la guerre hispano-américaine et membre éminent de la famille Astor.",
         "history": "Astor est né à Rhinebeck, New York, et était l'un des hommes les plus riches du monde au moment du voyage du Titanic. Il voyageait avec sa jeune épouse enceinte, Madeleine. Astor n'a pas survécu au naufrage, mais son épouse a été sauvée dans un canot de sauvetage.",
         "class": "Première Classe"
@@ -66,7 +66,7 @@
         "age": 67,
         "role": "Passager",
         "survived": false,
-        "image": "https://upload.wikimedia.org/wikipedia/commons/1/12/Isidor_Straus_01.jpg",
+        "image": "",
         "description": "Isidor Straus était un homme d'affaires, homme politique et co-propriétaire américain du grand magasin Macy's, né en Allemagne.",
         "history": "Straus est né à Otterberg, en Allemagne, et a immigré aux États-Unis avec sa famille. Lui et sa femme, Ida, retournaient à New York à bord du Titanic. Malgré une place offerte dans un canot de sauvetage, Isidor a choisi de rester avec sa femme, qui refusait de le quitter. Tous deux ont péri dans la catastrophe.",
         "class": "Première Classe"
@@ -78,7 +78,7 @@
         "age": 63,
         "role": "Passager",
         "survived": false,
-        "image": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Ida_Straus.jpg",
+        "image": "",
         "description": "Ida Straus était l'épouse d'Isidor Straus, co-propriétaire du grand magasin Macy's.",
         "history": "Née à Worms, en Allemagne, Ida a épousé Isidor Straus en 1871. Le couple était connu pour leur dévotion mutuelle. Pendant le naufrage du Titanic, Ida a refusé de quitter son mari et tous deux ont choisi de rester à bord, périssant ensemble.",
         "class": "Première Classe"
@@ -90,7 +90,7 @@
         "age": 46,
         "role": "Passager",
         "survived": false,
-        "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Benjamin_Guggenheim_1.jpg",
+        "image": "",
         "description": "Benjamin Guggenheim était un homme d'affaires américain et riche industriel.",
         "history": "Guggenheim est né à Philadelphie, Pennsylvanie, et faisait partie de la famille éminente des Guggenheim. Il voyageait sur le Titanic avec son valet et sa maîtresse. Connu pour sa chevalerie pendant la catastrophe, il s'est habillé de ses plus beaux vêtements et a accepté son sort avec dignité, déclarant qu'il était 'prêt à descendre comme un gentleman.'",
         "class": "Première Classe"
@@ -102,7 +102,7 @@
         "age": 49,
         "role": "Passager",
         "survived": true,
-        "image": "https://upload.wikimedia.org/wikipedia/commons/5/59/Bruce_Ismay.jpg",
+        "image": "",
         "description": "Joseph Bruce Ismay était un homme d'affaires anglais qui a servi comme directeur général de la White Star Line.",
         "history": "Ismay est né à Crosby, en Angleterre, et a joué un rôle clé dans la conception et la construction du Titanic. Il a survécu controversée de la catastrophe en montant à bord d'un canot de sauvetage, ce qui a conduit à de nombreuses critiques publiques et médiatiques. Après le naufrage, Ismay s'est retiré des affaires actives et a mené une vie tranquille jusqu'à sa mort.",
         "class": "Première Classe"
@@ -114,7 +114,7 @@
         "age": 39,
         "role": "Concepteur en Chef",
         "survived": false,
-        "image": "https://upload.wikimedia.org/wikipedia/commons/9/94/Thomas_Andrews_cph.3b19799.jpg",
+        "image": "",
         "description": "Thomas Andrews était un homme d'affaires et constructeur de navires irlandais, surtout connu comme le concepteur en chef du RMS Titanic.",
         "history": "Andrews est né à Comber, dans le comté de Down, en Irlande, et était membre de la société de construction navale Harland and Wolff. Il était à bord du Titanic pour observer son voyage inaugural et fournir un soutien. Pendant le naufrage, Andrews a été vu aidant les passagers et les incitant à monter dans les canots de sauvetage. Il n'a pas survécu à la catastrophe.",
         "class": "Première Classe"
@@ -126,7 +126,7 @@
         "age": 22,
         "role": "Passager",
         "survived": true,
-        "image": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Dorothy_Gibson_2.jpg",
+        "image": "",
         "description": "Dorothy Gibson était une actrice de cinéma muet et chanteuse américaine.",
         "history": "Née à Hoboken, New Jersey, Gibson voyageait sur le Titanic avec sa mère. Elle a survécu à la catastrophe et a ensuite joué dans un film sur le naufrage, 'Saved from the Titanic', qui est sorti juste un mois après l'événement. Le film est considéré comme le premier film réalisé sur le Titanic.",
         "class": "Première Classe"
@@ -138,7 +138,7 @@
         "age": 7,
         "role": "Passager",
         "survived": true,
-        "image": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Eva_Hart.jpg",
+        "image": "",
         "description": "Eva Miriam Hart était une survivante britannique de la catastrophe du Titanic.",
         "history": "Hart est née à Ilford, Essex, en Angleterre, et voyageait avec ses parents sur le Titanic. Son père n'a pas survécu, mais elle et sa mère ont été secourues. Eva est devenue plus tard une conférencière et auteure éminente, partageant ses expériences du naufrage du Titanic tout au long de sa vie.",
         "class": "Seconde Classe"
@@ -150,7 +150,7 @@
         "age": 18,
         "role": "Steward",
         "survived": true,
-        "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Edward_J_Smith.jpg",
+        "image": "",
         "description": "Edward Smith était steward sur le RMS Titanic.",
         "history": "Smith est né à Southampton, en Angleterre, et a rejoint l'équipage du Titanic pour son voyage inaugural. Il était l'un des nombreux membres d'équipage qui ont aidé les passagers pendant l'évacuation et a survécu au naufrage. Après la catastrophe, Smith a poursuivi sa carrière en mer.",
         "class": "Équipage"
@@ -162,7 +162,7 @@
         "age": 34,
         "role": "Passager",
         "survived": true,
-        "image": "https://upload.wikimedia.org/wikipedia/commons/3/37/Lawrence_Beesley.jpg",
+        "image": "",
         "description": "Lawrence Beesley était un professeur de sciences britannique et survivant du Titanic.",
         "history": "Beesley est né à Wirksworth, Derbyshire, en Angleterre, et voyageait sur le Titanic pour rendre visite à son frère au Canada. Il a survécu à la catastrophe et a ensuite écrit un livre sur ses expériences, 'The Loss of the SS Titanic', qui reste un récit historique précieux.",
         "class": "Seconde Classe"
@@ -174,7 +174,7 @@
         "age": 19,
         "role": "Passager",
         "survived": true,
-        "image": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Madeleine_Astor_1910.jpg",
+        "image": "",
         "description": "Madeleine Astor était l'épouse de John Jacob Astor IV et survivante du Titanic.",
         "history": "Madeleine est née à Brooklyn, New York, et a épousé John Jacob Astor IV en 1911. Elle était enceinte au moment du voyage du Titanic. Après avoir survécu à la catastrophe, Madeleine a donné naissance à un fils et s'est remariée deux fois. Elle a vécu une vie relativement tranquille jusqu'à sa mort en 1940.",
         "class": "Première Classe"
@@ -186,7 +186,7 @@
         "age": 54,
         "role": "Passager",
         "survived": true,
-        "image": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Archibald_Gracie_1907.jpg",
+        "image": "",
         "description": "Archibald Gracie IV était un écrivain, historien et survivant du Titanic américain.",
         "history": "Gracie est né à Mobile, Alabama, et voyageait sur le Titanic pour retourner aux États-Unis. Il a survécu en s'accrochant à un canot de sauvetage renversé. Après la catastrophe, Gracie a écrit un récit détaillé du naufrage, 'The Truth about the Titanic', qui a été publié à titre posthume en 1913.",
         "class": "Première Classe"
@@ -198,7 +198,7 @@
         "age": 24,
         "role": "Veilleur",
         "survived": true,
-        "image": "https://upload.wikimedia.org/wikipedia/commons/0/07/Frederick_Fleet.jpg",
+        "image": "",
         "description": "Frederick Fleet était un marin britannique et veilleur du Titanic.",
         "history": "Fleet est né à Liverpool, en Angleterre, et a rejoint l'équipage du Titanic en tant que veilleur. Il a été l'un des premiers à repérer l'iceberg avec lequel le navire est entré en collision. Fleet a survécu au naufrage et a continué à travailler en mer pendant de nombreuses années. Il a ensuite souffert de dépression et s'est malheureusement suicidé en 1965.",
         "class": "Équipage"
@@ -210,7 +210,7 @@
         "age": 22,
         "role": "Opérateur Radio",
         "survived": true,
-        "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/Harold_Bride.jpg",
+        "image": "",
         "description": "Harold Bride était un opérateur radio junior britannique sur le RMS Titanic.",
         "history": "Bride est né à Nunhead, Londres, et a travaillé comme opérateur radio aux côtés de Jack Phillips. Il a aidé à envoyer des signaux de détresse pendant le naufrage et a été secouru après avoir survécu sur un canot de sauvetage renversé. Bride a poursuivi sa carrière dans la communication radio après la catastrophe.",
         "class": "Équipage"
@@ -222,7 +222,7 @@
         "age": 25,
         "role": "Opérateur Radio Principal",
         "survived": false,
-        "image": "https://upload.wikimedia.org/wikipedia/commons/a/a0/John_George_Phillips.jpg",
+        "image": "",
         "description": "Jack Phillips était l'opérateur radio principal sur le RMS Titanic.",
         "history": "Phillips est né à Farncombe, Surrey, en Angleterre, et a travaillé sans relâche pour envoyer des signaux de détresse alors que le Titanic coulait. Malgré ses efforts, il n'a pas survécu à la catastrophe. Son courage et son dévouement ont été largement reconnus.",
         "class": "Équipage"
@@ -234,7 +234,7 @@
         "age": 24,
         "role": "Stewardess",
         "survived": true,
-        "image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Violet_Jessop.jpg",
+        "image": "",
         "description": "Violet Jessop était une stewardess qui a survécu au naufrage du RMS Titanic.",
         "history": "Jessop est née à Bahia Blanca, en Argentine, de parents irlandais. Elle a travaillé comme stewardess sur le Titanic et a ensuite survécu au naufrage du RMS Titanic et du HMHS Britannic. Ses incroyables histoires de survie lui ont valu le surnom de 'Miss Unsinkable'.",
         "class": "Équipage"
@@ -246,7 +246,7 @@
         "age": 5,
         "role": "Passager",
         "survived": true,
-        "image": "https://upload.wikimedia.org/wikipedia/commons/8/89/Lillian_Asplund.jpg",
+        "image": "",
         "description": "Lillian Asplund était une survivante suédo-américaine de la catastrophe du Titanic.",
         "history": "Asplund est née à Worcester, Massachusetts, et voyageait avec sa famille sur le Titanic. Son père et ses trois frères ont péri, mais Lillian, sa mère et un frère ont survécu. Lillian a vécu une vie privée et a été la dernière survivante américaine ayant des souvenirs de la catastrophe.",
         "class": "Troisième Classe"
@@ -258,7 +258,7 @@
         "age": 50,
         "role": "Passager",
         "survived": true,
-        "image": "https://upload.wikimedia.org/wikipedia/commons/5/56/Eleanor_Widener.jpg",
+        "image": "",
         "description": "Eleanor Elkins Widener était une mondaine de Philadelphie et survivante du Titanic.",
         "history": "Widener est née à Philadelphie, Pennsylvanie, et revenait d'un voyage en Europe avec sa famille. Son mari et son fils ont péri dans la catastrophe, mais Eleanor a survécu et a ensuite fait don d'une bibliothèque à l'Université de Harvard en leur mémoire.",
         "class": "Première Classe"
@@ -270,7 +270,7 @@
         "age": 29,
         "role": "Quartier-maître",
         "survived": true,
-        "image": "https://upload.wikimedia.org/wikipedia/commons/9/94/Robert_Hichens.jpg",
+        "image": "",
         "description": "Robert Hichens était un marin britannique et quartier-maître du Titanic.",
         "history": "Hichens est né à Newlyn, Cornwall, en Angleterre, et était à la barre lorsque le Titanic a heurté l'iceberg. Il était responsable du canot de sauvetage 6 et est devenu tristement célèbre pour son traitement des passagers pendant l'évacuation. Après la catastrophe, il a poursuivi sa carrière maritime mais a eu des problèmes personnels et a été emprisonné pour tentative de meurtre plus tard dans sa vie.",
         "class": "Équipage"
@@ -282,7 +282,7 @@
         "age": 36,
         "role": "Passager",
         "survived": false,
-        "image": "https://upload.wikimedia.org/wikipedia/commons/4/47/Edith_Evans.jpg",
+        "image": "",
         "description": "Edith Corse Evans était une mondaine américaine et passagère du Titanic.",
         "history": "Evans est née à Philadelphie, Pennsylvanie, et voyageait sur le Titanic avec des amis. Elle est restée dans les mémoires pour avoir cédé sa place dans un canot de sauvetage à une autre femme, une décision qui l'a conduite à périr dans la catastrophe. Son sacrifice a été plus tard commémoré par sa famille.",
         "class": "Première Classe"
@@ -294,7 +294,7 @@
         "age": 31,
         "role": "Passager",
         "survived": true,
-        "image": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Charlotte_Collyer.jpg",
+        "image": "",
         "description": "Charlotte Collyer était une survivante britannique du Titanic.",
         "history": "Collyer est née en Angleterre et voyageait en Amérique avec son mari et sa fille. Son mari n'a pas survécu, mais Charlotte et sa fille ont été secourues. Elle a écrit sur ses expériences pour plusieurs publications, fournissant des récits de première main précieux de la catastrophe.",
         "class": "Seconde Classe"
@@ -306,7 +306,7 @@
         "age": 25,
         "role": "Passager",
         "survived": false,
-        "image": "https://upload.wikimedia.org/wikipedia/commons/3/35/Joseph_Laroche.jpg",
+        "image": "",
         "description": "Joseph Laroche était un ingénieur haïtien et passager du Titanic.",
         "history": "Laroche est né à Cap-Haïtien, en Haïti, et voyageait avec sa femme enceinte et ses deux filles. Il était le seul passager noir en première classe. Sa famille a survécu, mais Joseph a péri dans la catastrophe. Son histoire a été largement oubliée jusqu'à la fin du 20e siècle.",
         "class": "Seconde Classe"
@@ -318,7 +318,7 @@
         "age": 18,
         "role": "Passager",
         "survived": true,
-        "image": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Anna_Sophia_Turja.jpg",
+        "image": "",
         "description": "Anna Sophia Turja était une survivante finno-américaine de la catastrophe du Titanic.",
         "history": "Turja est née à Oulainen, en Finlande, et immigrée aux États-Unis pour rejoindre sa sœur. Elle a survécu au naufrage et s'est ensuite installée au Minnesota. Anna a vécu une longue vie et a partagé ses expériences dans plusieurs interviews avant sa mort en 1982.",
         "class": "Troisième Classe"
@@ -330,7 +330,7 @@
         "age": 39,
         "role": "Passager",
         "survived": true,
-        "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/Marian_Thayer.jpg",
+        "image": "",
         "description": "Marian Thayer était une mondaine américaine et survivante du Titanic.",
         "history": "Thayer est née à Philadelphie, Pennsylvanie, et voyageait avec son mari et son fils. Son mari a péri, mais Marian et son fils ont survécu. Elle s'est ensuite consacrée au travail caritatif et a vécu à Haverford, Pennsylvanie, jusqu'à sa mort.",
         "class": "Première Classe"
@@ -342,7 +342,7 @@
         "age": 39,
         "role": "Comtesse de Rothes",
         "survived": true,
-        "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Noel_Leslie.jpg",
+        "image": "",
         "description": "Noel Leslie, Comtesse de Rothes, était une aristocrate britannique et survivante du Titanic.",
         "history": "Leslie est née à Londres, en Angleterre, et voyageait avec sa cousine sur le Titanic. Elle a joué un rôle clé en aidant d'autres passagers et en gérant le canot de sauvetage 8. Après la catastrophe, Leslie a été louée pour son courage et sa compassion.",
         "class": "Première Classe"
@@ -354,7 +354,7 @@
         "age": 15,
         "role": "Passager",
         "survived": true,
-        "image": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Annie_Moore.jpg",
+        "image": "",
         "description": "Annie Moore était une passagère de troisième classe sur le RMS Titanic.",
         "history": "Moore est née en Irlande et voyageait avec sa famille aux États-Unis. Elle a survécu à la catastrophe et s'est installée à New York. Annie s'est ensuite mariée et a eu une grande famille. Elle a vécu une vie tranquille et est décédée en 1960.",
         "class": "Troisième Classe"
@@ -366,7 +366,7 @@
         "age": 15,
         "role": "Passager",
         "survived": true,
-        "image": "https://upload.wikimedia.org/wikipedia/commons/6/68/Edith_Brown.jpg",
+        "image": "",
         "description": "Edith Eileen Brown était une survivante britannique du Titanic.",
         "history": "Brown est née au Cap, en Afrique du Sud, et voyageait avec ses parents. Son père n'a pas survécu, mais Edith et sa mère ont survécu. Elle s'est ensuite mariée et a partagé ses expériences du Titanic avec divers médias avant sa mort en 1997.",
         "class": "Seconde Classe"
@@ -378,7 +378,7 @@
         "age": 36,
         "role": "Passager",
         "survived": true,
-        "image": "https://upload.wikimedia.org/wikipedia/commons/9/94/William_Carter.jpg",
+        "image": "",
         "description": "William Carter était un homme d'affaires américain et survivant du Titanic.",
         "history": "Carter est né à Philadelphie, Pennsylvanie, et voyageait avec sa famille. Il a survécu à la catastrophe et est ensuite retourné à ses activités commerciales. William est devenu connu pour sa collection extensive de voitures anciennes et a continué à voyager largement jusqu'à sa mort.",
         "class": "Première Classe"
@@ -390,7 +390,7 @@
         "age": 53,
         "role": "Passager",
         "survived": true,
-        "image": "https://upload.wikimedia.org/wikipedia/commons/0/00/Helen_Churchill_Candee.jpg",
+        "image": "",
         "description": "Helen Churchill Candee était une auteure, journaliste, décoratrice d'intérieur et survivante du Titanic américaine.",
         "history": "Candee est née à New York et retournait aux États-Unis après avoir terminé un livre. Elle a survécu à la catastrophe et a poursuivi sa carrière d'écrivaine. Helen a ensuite publié plusieurs œuvres et est devenue une avocate des droits des femmes.",
         "class": "Première Classe"
@@ -402,7 +402,7 @@
         "age": 46,
         "role": "Passager",
         "survived": false,
-        "image": "https://upload.wikimedia.org/wikipedia/commons/1/1d/William_Mintram.jpg",
+        "image": "",
         "description": "William Mintram était un passager britannique du Titanic.",
         "history": "Mintram est né en Angleterre et voyageait en Amérique pour travailler. Il n'a pas survécu au naufrage et son corps n'a jamais été retrouvé. La famille de William en Angleterre a pleuré sa perte et se souvient de lui comme d'un mari et père dévoué.",
         "class": "Troisième Classe"
@@ -414,7 +414,7 @@
         "age": 30,
         "role": "Passager",
         "survived": false,
-        "image": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Hudson_Allison.jpg",
+        "image": "",
         "description": "Hudson Allison était un homme d'affaires canadien et passager du Titanic.",
         "history": "Allison est né à Montréal, Québec, et voyageait avec sa famille. Il n'a pas survécu à la catastrophe, mais sa femme et sa fille ont été secourues. La perte de Hudson a été profondément ressentie par sa famille et ses associés en affaires.",
         "class": "Première Classe"
@@ -426,7 +426,7 @@
         "age": 22,
         "role": "Nourrice",
         "survived": true,
-        "image": "https://upload.wikimedia.org/wikipedia/commons/6/66/Alice_Cleaver.jpg",
+        "image": "",
         "description": "Alice Cleaver était une nourrice et survivante du Titanic.",
         "history": "Cleaver est née à Londres, en Angleterre, et voyageait en tant que nourrice pour la famille Allison. Elle a réussi à sauver le plus jeune enfant Allison, Trevor, en le prenant dans un canot de sauvetage. Les actions d'Alice ont ensuite été reconnues comme héroïques et elle a poursuivi son travail de nourrice après la catastrophe.",
         "class": "Première Classe"
@@ -438,7 +438,7 @@
         "age": 33,
         "role": "Passager",
         "survived": false,
-        "image": "https://upload.wikimedia.org/wikipedia/commons/8/89/Thomas_Millar.jpg",
+        "image": "",
         "description": "Thomas Millar était un passager irlandais du Titanic.",
         "history": "Millar est né à Belfast, en Irlande, et voyageait en Amérique pour commencer une nouvelle vie. Il n'a pas survécu au naufrage et son corps n'a jamais été retrouvé. La famille de Thomas en Irlande se souvient de lui comme d'un homme travailleur et plein d'espoir.",
         "class": "Troisième Classe"
@@ -450,7 +450,7 @@
         "age": 31,
         "role": "Passager",
         "survived": false,
-        "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Michel_Navratil.jpg",
+        "image": "",
         "description": "Michel Navratil était un passager français du Titanic.",
         "history": "Navratil est né en Slovaquie et voyageait avec ses deux fils sous le pseudonyme de 'Louis M. Hoffman.' Il n'a pas survécu à la catastrophe, mais ses fils ont été secourus et plus tard réunis avec leur mère en France. L'histoire de Michel a été découverte plus tard grâce aux efforts de sa famille survivante.",
         "class": "Seconde Classe"
@@ -462,7 +462,7 @@
         "age": 32,
         "role": "Passager",
         "survived": true,
-        "image": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Edith_Rosenbaum.jpg",
+        "image": "",
         "description": "Edith Rosenbaum était une acheteuse de mode américaine et survivante du Titanic.",
         "history": "Rosenbaum est née à Cincinnati, Ohio, et retournait aux États-Unis après un voyage d'affaires. Elle a survécu à la catastrophe et est ensuite devenue connue pour son travail dans l'industrie de la mode. Les expériences d'Edith sur le Titanic ont été racontées dans diverses interviews et documentaires.",
         "class": "Première Classe"
@@ -474,7 +474,7 @@
         "age": 48,
         "role": "Passager",
         "survived": true,
-        "image": "https://upload.wikimedia.org/wikipedia/commons/4/44/Henry_Harper.jpg",
+        "image": "",
         "description": "Henry Harper était un éditeur américain et survivant du Titanic.",
         "history": "Harper est né à New York et voyageait avec sa femme et un chien. Il a survécu à la catastrophe et a ensuite raconté ses expériences dans plusieurs publications. Henry a continué son travail dans l'industrie de l'édition et est resté une figure éminente de la société new-yorkaise.",
         "class": "Première Classe"

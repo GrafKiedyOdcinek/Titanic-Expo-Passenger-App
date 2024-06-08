@@ -9,6 +9,7 @@ import {
 } from "@material-tailwind/react";
 import passengerDataEN from "../../Data/passengerEN.json";
 import passengerDataFR from "../../Data/passengerFR.json";
+import DefaultPicture from "../../assets/default.png";
 
 const PassengerProfile = () => {
   const { id } = useParams();
@@ -128,7 +129,7 @@ const PassengerProfile = () => {
                 </button>
                 <div className="passenger-img-profile mt-4 sm:max-h-[200px] sm:max-w-[200px] md:max-h-[400px] md:max-w-[400px] lg:max-w-[500px] lg:max-h-[500px] w-full">
                   <img
-                    src={passenger.image}
+                    src={passenger.image ? passenger.image : DefaultPicture}
                     alt={passenger.name}
                     className="sm:max-h-[200px] sm:max-w-[200px] md:max-h-[400px] md:max-w-[400px] lg:max-w-[500px] lg:max-h-[500px]"
                   />
@@ -142,7 +143,7 @@ const PassengerProfile = () => {
                   <i className="fa-solid fa-caret-right text-7xl"></i>
                 </button>
               </div>
-              <h1 className="border rounded-full py-3 px-10 w-full md:w-w-[50%] lg:w-[50%] text-center">
+              <h1 className="border rounded-full py-3 px-10 w-full text-center">
                 {passenger.name}
               </h1>
               <div className="flex gap-2 md:gap-10 lg:gap-10 w-full mt-4">

@@ -12,6 +12,7 @@ import {
 
 import passengerDataEN from "./Data/passengerEN.json";
 import passengerDataFR from "./Data/passengerFR.json";
+import DefaultPicture from "./assets/default.png";
 
 function App() {
   const [currentPage, setCurrentPage] = useState(1);
@@ -196,7 +197,9 @@ function App() {
                   className="flex flex-col items-center gap-2 w-full"
                 >
                   <div className="passenger-img">
-                    <img src={passenger?.image} alt={passenger?.name} />
+                    <img
+                      src={passenger.image ? passenger.image : DefaultPicture}
+                    />
                   </div>
                   <p>{passenger?.name}</p>
                 </Link>

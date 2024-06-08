@@ -1,17 +1,20 @@
-import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import App from "../App";
 import PassengerProfile from "../Components/Cards/PassengerProfile";
+import PageTransition from "./PageTransition";
 
-const index = () => {
+const Index = () => {
   return (
     <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<App />} />
-        <Route path="*" element={<Navigate to="/" />} />
-        <Route path="/passenger/:id" element={<PassengerProfile />} />
-      </Routes>
+      <PageTransition>
+        <Routes>
+          <Route path="/" element={<App />} />
+          <Route path="*" element={<Navigate to="/" />} />
+          <Route path="/passenger/:id" element={<PassengerProfile />} />
+        </Routes>
+      </PageTransition>
     </BrowserRouter>
   );
 };
 
-export default index;
+export default Index;
