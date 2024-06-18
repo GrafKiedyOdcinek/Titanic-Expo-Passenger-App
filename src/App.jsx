@@ -13,6 +13,7 @@ import {
 import passengerDataEN from "./Data/passengerEN.json";
 import passengerDataFR from "./Data/passengerFR.json";
 import DefaultPicture from "./assets/default.png";
+import Ornement from "./Components/Ornement";
 
 function App() {
   const [currentPage, setCurrentPage] = useState(1);
@@ -38,17 +39,25 @@ function App() {
   }, [language]);
 
   useEffect(() => {
+    const classMapping = {
+      "First Class": language === "FR" ? "Première Classe" : "First Class",
+      "Second Class": language === "FR" ? "Seconde Classe" : "Second Class",
+      "Third Class": language === "FR" ? "Troisième Classe" : "Third Class",
+      Staff: language === "FR" ? "Équipage" : "Staff",
+    };
+
     const filtered = data.filter((passenger) => {
       const matchesSearch = passenger.name
         .toLowerCase()
         .includes(searchTerm.toLowerCase());
       const matchesClass =
         classFilter === "All" ||
-        passenger.class.toLowerCase() === classFilter.toLowerCase();
+        passenger.class.toLowerCase() ===
+          classMapping[classFilter].toLowerCase();
       return matchesSearch && matchesClass;
     });
     setFilteredData(filtered);
-  }, [searchTerm, classFilter, data]);
+  }, [searchTerm, classFilter, data, language]);
 
   useEffect(() => {
     const indexOfLastPost = currentPage * postsPerPage;
@@ -189,7 +198,7 @@ function App() {
             currentItems.map((passenger) => (
               <div
                 key={passenger?.name}
-                className="passenger-item flex flex-col gap-3 items-center w-full sm:w-[100%] md:w-[28%] lg:w-[15%] justify-center"
+                className="passenger-item flex flex-col gap-3 items-center w-full sm:w-[100%] md:w-[20%] lg:w-[15%] justify-center"
               >
                 <Link
                   to={`/passenger/${passenger?.passengerID}`}
@@ -199,9 +208,10 @@ function App() {
                   <div className="passenger-img">
                     <img
                       src={passenger.image ? passenger.image : DefaultPicture}
+                      alt={passenger.name}
                     />
                   </div>
-                  <p>{passenger?.name}</p>
+                  <p className="text-center min-h-[50px]">{passenger?.name}</p>
                 </Link>
               </div>
             ))
@@ -220,6 +230,7 @@ function App() {
             />
           </div>
         )}
+        <Ornement />
       </main>
     </div>
   );
