@@ -10,6 +10,7 @@ import {
 import passengerDataEN from "../../Data/passengerEN.json";
 import passengerDataFR from "../../Data/passengerFR.json";
 import DefaultPicture from "../../assets/default.png";
+import Ornement from "../Ornement";
 
 const PassengerProfile = () => {
   const { id } = useParams();
@@ -146,21 +147,24 @@ const PassengerProfile = () => {
               <h1 className="border rounded-full py-3 px-10 w-full text-center">
                 {passenger.name}
               </h1>
-              <div className="flex gap-2 md:gap-10 lg:gap-10 w-full mt-4">
-                <p className="border rounded-full py-3 px-10 w-[40%] text-center">
+              <div className="flex gap-2 md:gap-10 lg:gap-10 w-full mt-4 items-center justify-center">
+                {/* <p className="border rounded-full py-3 px-10 w-[40%] text-center">
                   <strong>Age:</strong> {passenger.age}
-                </p>
-                <p className="border rounded-full py-3 px-10 w-[60%] text-center">
-                  <strong>Role:</strong> {passenger.role}
+                </p> */}
+                <p className="border rounded-full py-3 px-10 w-[50%] text-center">
+                  {passenger.role}
                 </p>
               </div>
 
               <p className="border rounded-3xl py-3 px-10">
-                <strong>Description:</strong> {passenger.description}
+                <strong>
+                  {language === "EN" ? "Biography : " : "Biographie : "}
+                </strong>
+                {passenger.description}
               </p>
-              <p className="border rounded-3xl py-3 px-10">
+              {/* <p className="border rounded-3xl py-3 px-10">
                 <strong>History:</strong> {passenger.history}
-              </p>
+              </p> */}
             </div>
           ) : (
             <>
@@ -172,6 +176,7 @@ const PassengerProfile = () => {
           )}
         </div>
       </main>
+      <Ornement />
     </div>
   );
 };
