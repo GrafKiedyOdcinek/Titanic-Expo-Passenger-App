@@ -70,7 +70,7 @@ const PassengerProfile = () => {
     <div className="p-4">
       <header className="flex justify-between items-center gap-4">
         <Link to="/" className="text-2xl font-bold">
-          <button className="border rounded-full w-32 p-2 text-center hover:bg-gray-200 hover:text-gray-800 transition-all bg-white">
+          <button className="border rounded-full w-32 p-2 text-center transition-all bg-white ripple">
             <i className="fa-solid fa-arrow-left text-black"></i>
           </button>
         </Link>
@@ -144,27 +144,19 @@ const PassengerProfile = () => {
                   <i className="fa-solid fa-caret-right text-7xl"></i>
                 </button>
               </div>
-              <h1 className="border rounded-full py-3 px-10 w-full text-center">
+              <h1 className=" py-2 px-10 w-full text-center text-3xl">
                 {passenger.name}
               </h1>
-              <div className="flex gap-2 md:gap-10 lg:gap-10 w-full mt-4 items-center justify-center">
-                {/* <p className="border rounded-full py-3 px-10 w-[40%] text-center">
-                  <strong>Age:</strong> {passenger.age}
-                </p> */}
-                <p className="border rounded-full py-3 px-10 w-[50%] text-center">
-                  {passenger.role}
-                </p>
+              <div className="flex w-full items-center justify-center">
+                <p className="px-10 w-[50%] text-center">{passenger.role}</p>
               </div>
 
-              <p className="border rounded-3xl py-3 px-10">
+              <p className=" py-3 px-10">
                 <strong>
                   {language === "EN" ? "Biography : " : "Biographie : "}
                 </strong>
                 {passenger.description}
               </p>
-              {/* <p className="border rounded-3xl py-3 px-10">
-                <strong>History:</strong> {passenger.history}
-              </p> */}
             </div>
           ) : (
             <>
