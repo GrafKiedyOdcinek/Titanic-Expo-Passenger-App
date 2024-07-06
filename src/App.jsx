@@ -14,6 +14,7 @@ import passengerDataEN from "./Data/passengerEN.json";
 import passengerDataFR from "./Data/passengerFR.json";
 import DefaultPicture from "./assets/default.png";
 import Ornement from "./Components/Ornement";
+import FullScreenButton from "./Components/FullScreen";
 
 function App() {
   const [currentPage, setCurrentPage] = useState(1);
@@ -236,6 +237,7 @@ function App() {
           </div>
         )}
         <Ornement />
+        <FullScreenButton />
       </main>
     </div>
   );
