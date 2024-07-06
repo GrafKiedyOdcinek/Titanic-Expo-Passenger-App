@@ -144,7 +144,7 @@ const PassengerProfile = () => {
                   <i className="fa-solid fa-caret-right text-7xl"></i>
                 </button>
               </div>
-              <h1 className=" py-2 px-10 w-full text-center">
+              <h1 className="py-2 px-10 w-full text-center">
                 {passenger.name}
               </h1>
               <div className="flex w-full items-center justify-center">

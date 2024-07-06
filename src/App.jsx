@@ -217,7 +217,11 @@ function App() {
               </div>
             ))
           ) : (
-            <p>No result for this search</p>
+            <p>
+              {language === "FR"
+                ? "Pas de résultat pour cette recherche"
+                : "No result for this search"}
+            </p>
           )}
         </div>
 
