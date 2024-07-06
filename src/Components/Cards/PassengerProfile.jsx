@@ -144,14 +144,16 @@ const PassengerProfile = () => {
                   <i className="fa-solid fa-caret-right text-7xl"></i>
                 </button>
               </div>
-              <h1 className=" py-2 px-10 w-full text-center text-3xl">
+              <h1 className=" py-2 px-10 w-full text-center">
                 {passenger.name}
               </h1>
               <div className="flex w-full items-center justify-center">
-                <p className="px-10 w-[50%] text-center">{passenger.role}</p>
+                <p className="px-10 w-[50%] text-center times">
+                  {passenger.role}
+                </p>
               </div>
 
-              <p className=" py-3 px-10">
+              <p className=" py-3 px-10 leading-8">
                 <strong>
                   {language === "EN" ? "Biography : " : "Biographie : "}
                 </strong>
