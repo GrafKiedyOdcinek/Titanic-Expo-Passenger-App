@@ -170,7 +170,9 @@ const PassengerProfile = () => {
           )}
         </div>
       </main>
-      <Ornement />
+      <footer>
+        <Ornement />
+      </footer>
     </div>
   );
 };

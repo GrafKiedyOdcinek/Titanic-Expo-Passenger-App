@@ -236,8 +236,10 @@ function App() {
             />
           </div>
         )}
-        <Ornement />
-        <FullScreenButton />
+        <footer>
+          <Ornement />
+          <FullScreenButton />
+        </footer>
       </main>
     </div>
   );

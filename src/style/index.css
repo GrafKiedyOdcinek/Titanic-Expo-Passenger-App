@@ -13,6 +13,7 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  position: relative;
 }
 
 h1 {
@@ -96,4 +97,13 @@ h1 {
 }
 .ripple:active {
   transform: scale(0.8);
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  background: #0d1625;
+  width: 100%;
 }
