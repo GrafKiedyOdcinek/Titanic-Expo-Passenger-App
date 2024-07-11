@@ -15,6 +15,8 @@ import passengerDataFR from "./Data/passengerFR.json";
 import DefaultPicture from "./assets/default.png";
 import Ornement from "./Components/Ornement";
 import FullScreenButton from "./Components/FullScreen";
+import OrnementLeft from "./Components/OrnementLeft";
+import OrnementRight from "./Components/OrnementRight";
 
 function App() {
   const [currentPage, setCurrentPage] = useState(1);
@@ -194,6 +196,8 @@ function App() {
         </div>
       </header>
       <div className="separator border mt-6"></div>
+      <OrnementLeft />
+      <OrnementRight />
       <main className="p-10">
         <div className="flex gap-10 p-10 flex-wrap items-center justify-center">
           {currentItems.length > 0 ? (
