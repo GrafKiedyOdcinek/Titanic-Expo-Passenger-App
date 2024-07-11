@@ -5,7 +5,7 @@ import TRAITDOWN from "../assets/arrow-down-left-right.png";
 
 const OrnementRight = () => {
   return (
-    <div className="flex flex-col justify-between mt-10 fixed right-0 z-10 rotate-180">
+    <div className="flex flex-col justify-between fixed right-0 z-10 rotate-180 h-[80%]">
       <div className="traitgauche">
         <img src={TRAITUP} alt="" />
       </div>

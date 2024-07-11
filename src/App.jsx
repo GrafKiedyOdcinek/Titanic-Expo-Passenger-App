@@ -232,7 +232,7 @@ function App() {
 
         <footer>
           {filteredData.length > postsPerPage && (
-            <div className="pagination flex justify-center gap-4 mt-4 items-center">
+            <div className="pagination flex justify-center gap-4 mt-4 items-center relative">
               <Pagination
                 length={filteredData.length}
                 postsPerPage={postsPerPage}

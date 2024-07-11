@@ -10,7 +10,7 @@ const Pagination = ({
   }
 
   return (
-    <div className="pagination flex gap-6">
+    <div className="pagination flex gap-6 absolute top-[20px]">
       {currentPage > 1 && (
         <button
           onClick={() => handlePagination(currentPage - 1)}
