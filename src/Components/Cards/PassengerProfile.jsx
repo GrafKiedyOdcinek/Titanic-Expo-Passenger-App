@@ -68,7 +68,7 @@ const PassengerProfile = () => {
 
   return (
     <div className="p-4">
-      <header className="flex justify-between items-center gap-4">
+      <header className="head flex justify-between items-center gap-4">
         <Link to="/" className="text-2xl font-bold">
           <button className="border rounded-full w-32 p-2 text-center transition-all bg-white ripple">
             <i className="fa-solid fa-arrow-left text-black"></i>
@@ -118,7 +118,7 @@ const PassengerProfile = () => {
       <main {...handlers}>
         <div className="flex flex-col justify-center items-center">
           {passenger ? (
-            <div className="passenger-profile flex flex-col justify-center items-center gap-5 p-6 sm:max-w-full md:max-w-full lg:max-w-[60%]">
+            <div className="passenger-profile flex flex-col justify-center items-center gap-5 p-6 sm:max-w-full md:max-w-full lg:max-w-[80%]">
               <div className="flex gap-10 w-full justify-between items-center">
                 <button
                   onClick={() =>
@@ -128,11 +128,11 @@ const PassengerProfile = () => {
                 >
                   <i className="fa-solid fa-caret-left text-7xl"></i>
                 </button>
-                <div className="passenger-img-profile mt-4 sm:max-h-[200px] sm:max-w-[200px] md:max-h-[400px] md:max-w-[400px] lg:max-w-[500px] lg:max-h-[500px] w-full">
+                <div className="passenger-img-profile mt-4 sm:max-h-[200px] sm:max-w-[200px] md:max-h-[400px] md:max-w-[400px] w-full">
                   <img
                     src={passenger.image ? passenger.image : DefaultPicture}
                     alt={passenger.name}
-                    className="sm:max-h-[200px] sm:max-w-[200px] md:max-h-[400px] md:max-w-[400px] lg:max-w-[500px] lg:max-h-[500px]"
+                    className="sm:max-h-[200px] sm:max-w-[200px] md:max-h-[400px] md:max-w-[400px] "
                   />
                 </div>
                 <button
