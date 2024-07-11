@@ -96,11 +96,11 @@ function App() {
       <OrnementLeft />
       <OrnementRight />
       <div className="flex justify-center">
-        <header className="flex flex-col sm:flex-row justify-between items-center gap-4">
+        <header className="flex  sm:flex-row justify-center items-center gap-4 w-[65%]">
           <div className="grade flex gap-4">
             <button
               onClick={() => handleClassFilter("First Class")}
-              className={`grade1 ripple border rounded-full min-w-[70px] p-2 text-center ${
+              className={`grade1 ripple border rounded-full min-w-[60px] p-2 text-center ${
                 classFilter === "First Class" ? "active-filter" : ""
               }`}
             >
@@ -108,7 +108,7 @@ function App() {
             </button>
             <button
               onClick={() => handleClassFilter("Second Class")}
-              className={`grade2 ripple border rounded-full min-w-[70px] p-2 text-center ${
+              className={`grade2 ripple border rounded-full min-w-[60px] p-2 text-center ${
                 classFilter === "Second Class" ? "active-filter" : ""
               }`}
             >
@@ -116,7 +116,7 @@ function App() {
             </button>
             <button
               onClick={() => handleClassFilter("Third Class")}
-              className={`grade3 border ripple rounded-full min-w-[70px] p-2 text-center ${
+              className={`grade3 border ripple rounded-full min-w-[60px] p-2 text-center ${
                 classFilter === "Third Class" ? "active-filter" : ""
               }`}
             >
@@ -124,7 +124,7 @@ function App() {
             </button>
             <button
               onClick={() => handleClassFilter("Staff")}
-              className={`grade4 ripple border rounded-full min-w-[70px] p-2 text-center ${
+              className={`grade4 ripple border rounded-full min-w-[60px] p-2 text-center ${
                 classFilter === "Staff" ? "active-filter" : ""
               }`}
             >
@@ -133,7 +133,7 @@ function App() {
             {classFilter !== "All" && (
               <button
                 onClick={() => handleClassFilter("All")}
-                className="clear-filter ripple border rounded-full min-w-[70px] p-2 text-center bg-red-300"
+                className="clear-filter ripple border rounded-full min-w-[60px] p-2 text-center bg-red-300"
               >
                 <i className="fa-solid fa-filter-circle-xmark"></i>
                 {language === "FR" ? " Effacer" : " Clear"}
@@ -141,7 +141,7 @@ function App() {
             )}
           </div>
           <div className="search">
-            <div className="w-72">
+            <div className="w-80">
               <div className="relative w-full min-w-[200px] h-10">
                 <div className="absolute grid w-5 h-5 place-items-center text-white top-2/4 right-3 -translate-y-2/4">
                   <i className="fa-solid fa-magnifying-glass"></i>
