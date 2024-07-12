@@ -233,18 +233,18 @@ function App() {
             </p>
           )}
         </div>
+        {filteredData.length > postsPerPage && (
+          <div className="pagination flex justify-center gap-4 mt-4 items-center relative">
+            <Pagination
+              length={filteredData.length}
+              postsPerPage={postsPerPage}
+              handlePagination={handlePagination}
+              currentPage={currentPage}
+            />
+          </div>
+        )}
 
         <footer>
-          {filteredData.length > postsPerPage && (
-            <div className="pagination flex justify-center gap-4 mt-4 items-center relative">
-              <Pagination
-                length={filteredData.length}
-                postsPerPage={postsPerPage}
-                handlePagination={handlePagination}
-                currentPage={currentPage}
-              />
-            </div>
-          )}
           <Ornement />
           <FullScreenButton />
         </footer>
