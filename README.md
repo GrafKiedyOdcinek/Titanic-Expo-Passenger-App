@@ -55,5 +55,5 @@
 
 ## Accéder à l'application :
 
-Ouvrez votre navigateur et allez à l'adresse suivante : http://localhost:3000
+Ouvrez votre navigateur et allez à l'adresse suivante : http://localhost:5173/
 L'application devrait maintenant être en cours d'exécution et accessible via votre navigateur.
