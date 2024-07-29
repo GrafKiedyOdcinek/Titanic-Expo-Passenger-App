@@ -52,3 +52,8 @@
   ```sh
    npm run dev
   ```
+
+## Accéder à l'application :
+
+Ouvrez votre navigateur et allez à l'adresse suivante : http://localhost:3000
+L'application devrait maintenant être en cours d'exécution et accessible via votre navigateur.
